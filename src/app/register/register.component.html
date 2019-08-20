@@ -1,7 +1,7 @@
-<h2>Register</h2>
+<h2 i18n="Register Page Heading|Heading for register page @@RegisterHeading">Register Page</h2>
 <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
   <div class="form-group">
-    <label for="firstName">First Name</label>
+    <label for="firstName" i18n="User First Name|First name for registering @@FirstName">First Name</label>
     <input type="text" formControlName="firstName" class="form-control"
            [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }"/>
     <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
@@ -9,7 +9,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label for="lastName">Last Name</label>
+    <label for="lastName" i18n="User Last Name|Last name for registering @@LastName">Last Name</label>
     <input type="text" formControlName="lastName" class="form-control"
            [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }"/>
     <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label for="username">Username</label>
+    <label for="username" i18n="Login Username|User name used for login later @@LoginUsername">Username</label>
     <input type="text" formControlName="username" class="form-control"
            [ngClass]="{ 'is-invalid': submitted && f.username.errors }"/>
     <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
@@ -25,7 +25,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label for="password">Password</label>
+    <label for="password" i18n="Login Password|Password label for login page @@LoginPassword">Password</label>
     <input type="password" formControlName="password" class="form-control"
            [ngClass]="{ 'is-invalid': submitted && f.password.errors }"/>
     <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
@@ -36,8 +36,8 @@
   <div class="form-group">
     <button [disabled]="loading" class="btn btn-primary">
       <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
-      Register
+      <span i18n="Register Button|Register button for login page @@RegisterButton">Register</span>
     </button>
-    <a routerLink="/login" class="btn btn-link">Cancel</a>
+    <a routerLink="/login" class="btn btn-link" i18n="Cancel Button|Button for cancelling @@CancelButton">Cancel</a>
   </div>
 </form>

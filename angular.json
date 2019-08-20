@@ -28,11 +28,28 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
           "configurations": {
+            "fr": {
+              "aot": true,
+              "outputPath": "dist/regist-login-fr/",
+              "i18nFile": "src/locales/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr",
+              "i18nMissingTranslation": "error"
+            },
+            "id": {
+              "aot": true,
+              "outputPath": "dist/regist-login-id/",
+              "i18nFile": "src/locales/messages.id.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "id",
+              "i18nMissingTranslation": "error"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -72,6 +89,12 @@
           "configurations": {
             "production": {
               "browserTarget": "regist-login:build:production"
+            },
+            "fr": {
+              "browserTarget": "regist-login:build:fr"
+            },
+            "id": {
+              "browserTarget": "regist-login:build:id"
             }
           }
         },
@@ -124,6 +147,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "regist-login"
 }

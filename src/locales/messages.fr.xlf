@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+       <trans-unit id="HomeButton" datatype="html">
+        <source>Home</source>
+        <target>Maison</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Button to go to home page </note>
+        <note priority="1" from="meaning">Home Button</note>
+      </trans-unit>
+      <trans-unit id="LogoutButton" datatype="html">
+        <source>Logout</source>
+        <target>Connectez-Out</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Button for logging out </note>
+        <note priority="1" from="meaning">Logout Button</note>
+      </trans-unit>
+      <trans-unit id="UserGreeting" datatype="html">
+        <source>Hi <x id="INTERPOLATION" equiv-text="{{currentUser.firstName}}"/>!</source>
+        <target>Bonjour <x id="INTERPOLATION" equiv-text="{{currentUser.firstName}}"/>!</target>
+            <context-group purpose="location">
+              <context context-type="sourcefile">src/app/home/home.component.html</context>
+              <context context-type="linenumber">1</context>
+            </context-group>
+            <note priority="1" from="description">Greeting to user </note>
+            <note priority="1" from="meaning">Greeting</note>
+          </trans-unit>
+          <trans-unit id="HomeDescription" datatype="html">
+            <source>You&apos;re logged in with Angular 8!!</source>
+            <target>Vous êtes connecté avec Angular 8!!</target>
+            <context-group purpose="location">
+              <context context-type="sourcefile">src/app/home/home.component.html</context>
+              <context context-type="linenumber">2</context>
+            </context-group>
+            <note priority="1" from="description">Dummy description for home page </note>
+            <note priority="1" from="meaning">Home Description</note>
+          </trans-unit>
+          <trans-unit id="UserList" datatype="html">
+            <source>All registered users:</source>
+            <target>Tous les utilisateurs enregistrés:</target>
+            <context-group purpose="location">
+              <context context-type="sourcefile">src/app/home/home.component.html</context>
+              <context context-type="linenumber">3</context>
+            </context-group>
+            <note priority="1" from="description">Showing a list of users who already registered </note>
+            <note priority="1" from="meaning">User List</note>
+          </trans-unit>
+          <trans-unit id="DeleteButton" datatype="html">
+            <source>Delete</source>
+            <target>Effacer</target>
+            <context-group purpose="location">
+              <context context-type="sourcefile">src/app/home/home.component.html</context>
+              <context context-type="linenumber">7</context>
+            </context-group>
+            <note priority="1" from="description">Button for deleting </note>
+            <note priority="1" from="meaning">Delete Button</note>
+      </trans-unit>
+      <trans-unit id="LoginHeader" datatype="html">
+        <source>Login</source>
+        <target>s'identifier</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">Login header for  login page </note>
+        <note priority="1" from="meaning">Login Header</note>
+      </trans-unit>
+      <trans-unit id="LoginUsername" datatype="html">
+        <source>Username</source>
+        <target>Nom d'utilisateur</target>
+       <context-group purpose="location">
+         <context context-type="sourcefile">src/app/login/login.component.html</context>
+         <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">Username label for login page </note>
+        <note priority="1" from="meaning">Login Username</note>
+      </trans-unit>
+      <trans-unit id="LoginPassword" datatype="html">
+        <source>Password</source>
+        <target>mot de passe</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+         <context-group purpose="location">
+                  <context context-type="sourcefile">src/app/register/register.component.html</context>
+                  <context context-type="linenumber">28</context>
+         </context-group>
+        <note priority="1" from="description">Password label for login page </note>
+        <note priority="1" from="meaning">Login Password</note>
+      </trans-unit>
+       <trans-unit id="LoginButton" datatype="html">
+             <source>Login</source>
+             <target>le Login</target>
+             <context-group purpose="location">
+               <context context-type="sourcefile">src/app/login/login.component.html</context>
+               <context context-type="linenumber">22</context>
+             </context-group>
+             <note priority="1" from="description">Login button for login page </note>
+             <note priority="1" from="meaning">Login Button</note>
+           </trans-unit>
+      <trans-unit id="RegisterButton" datatype="html">
+        <source>Register</source>
+        <target>Registre</target>
+         <context-group purpose="location">
+                  <context context-type="sourcefile">src/app/login/login.component.html</context>
+                  <context context-type="linenumber">25</context>
+                </context-group>
+                <context-group purpose="location">
+                  <context context-type="sourcefile">src/app/register/register.component.html</context>
+                  <context context-type="linenumber">39</context>
+                </context-group>
+        <note priority="1" from="description">for login page </note>
+        <note priority="1" from="meaning">Register Button</note>
+      </trans-unit>
+      <trans-unit id="RegisterHeading" datatype="html">
+        <source>Register Page</source>
+        <target>enregistrer la page</target>
+              <context-group purpose="location">
+                <context context-type="sourcefile">src/app/register/register.component.html</context>
+                <context context-type="linenumber">1</context>
+              </context-group>
+              <note priority="1" from="description">Heading for register page </note>
+              <note priority="1" from="meaning">Register Page Heading</note>
+            </trans-unit>
+            <trans-unit id="FirstName" datatype="html">
+              <source>First Name</source>
+              <target>Prénom</target>
+              <context-group purpose="location">
+                <context context-type="sourcefile">src/app/register/register.component.html</context>
+                <context context-type="linenumber">4</context>
+              </context-group>
+              <note priority="1" from="description">First name for registering </note>
+              <note priority="1" from="meaning">User First Name</note>
+            </trans-unit>
+            <trans-unit id="LastName" datatype="html">
+              <source>Last Name</source>
+              <target>Nom de famille</target>
+              <context-group purpose="location">
+                <context context-type="sourcefile">src/app/register/register.component.html</context>
+                <context context-type="linenumber">12</context>
+              </context-group>
+              <note priority="1" from="description">Last name for registering </note>
+              <note priority="1" from="meaning">User Last Name</note>
+            </trans-unit>
+            <trans-unit id="CancelButton" datatype="html">
+              <source>Cancel</source>
+              <target>Annuler</target>
+              <context-group purpose="location">
+                <context context-type="sourcefile">src/app/register/register.component.html</context>
+                <context context-type="linenumber">41</context>
+              </context-group>
+              <note priority="1" from="description">Button for cancelling </note>
+              <note priority="1" from="meaning">Cancel Button</note>
+            </trans-unit>
+    </body>
+  </file>
+</xliff>

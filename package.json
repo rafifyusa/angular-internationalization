@@ -4,10 +4,15 @@
   "scripts": {
     "ng": "ng",
     "start": "webpack-dev-server --mode development --open",
+    "start:fr": "ng serve --configuration=fr",
+    "start:id": "ng serve --configuration=id",
     "build": "webpack --mode production",
+    "build:fr": "ng build --configuration=fr",
+    "build:id": "ng build --configuration=id",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "extract": "ng xi18n --output-path src/locales"
   },
   "private": true,
   "dependencies": {
@@ -19,6 +24,9 @@
     "@angular/platform-browser": "~8.2.0",
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper": "^1.0.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

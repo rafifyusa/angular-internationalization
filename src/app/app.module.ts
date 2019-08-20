@@ -12,6 +12,7 @@ import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {JwtInterceptor} from './_helpers/jwt.interceptor';
 import {ErrorInterceptor} from './_helpers/error.interceptor';
 import {fakeBackendProvider} from './_helpers/fake-backend';
+import {registerLocaleData} from '@angular/common';
 
 @NgModule({
   declarations: [
