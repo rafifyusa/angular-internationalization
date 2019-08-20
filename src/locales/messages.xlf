@@ -73,29 +73,55 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register/register.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">24</context>
         </context-group>
         <note priority="1" from="description">Username label for login page </note>
         <note priority="1" from="meaning">Login Username</note>
+      </trans-unit>
+      <trans-unit id="UsernameAlert" datatype="html">
+        <source>Username is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">Alert when username is empty </note>
+        <note priority="1" from="meaning">Empty Username</note>
       </trans-unit>
       <trans-unit id="LoginPassword" datatype="html">
         <source>Password</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login/login.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">13</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register/register.component.html</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">35</context>
         </context-group>
         <note priority="1" from="description">Password label for login page </note>
         <note priority="1" from="meaning">Login Password</note>
+      </trans-unit>
+      <trans-unit id="PasswordAlert" datatype="html">
+        <source>Password is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/login/login.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <note priority="1" from="description">Alert when password is empty </note>
+        <note priority="1" from="meaning">Empty Password</note>
       </trans-unit>
       <trans-unit id="LoginButton" datatype="html">
         <source>Login</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login/login.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">23</context>
         </context-group>
         <note priority="1" from="description">Login button for login page </note>
         <note priority="1" from="meaning">Login Button</note>
@@ -104,11 +130,11 @@
         <source>Register</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/login/login.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">26</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register/register.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">48</context>
         </context-group>
         <note priority="1" from="description">Register button for login page </note>
         <note priority="1" from="meaning">Register Button</note>
@@ -131,20 +157,48 @@
         <note priority="1" from="description">First name for registering </note>
         <note priority="1" from="meaning">User First Name</note>
       </trans-unit>
+      <trans-unit id="FirstNameAlert" datatype="html">
+        <source>First Name is required</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Alert when first name is empty </note>
+        <note priority="1" from="meaning">Empty First Name</note>
+      </trans-unit>
       <trans-unit id="LastName" datatype="html">
         <source>Last Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register/register.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">13</context>
         </context-group>
         <note priority="1" from="description">Last name for registering </note>
         <note priority="1" from="meaning">User Last Name</note>
+      </trans-unit>
+      <trans-unit id="LastNameAlert" datatype="html">
+        <source>Last Name is required
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <note priority="1" from="description">Alert when last name is empty </note>
+        <note priority="1" from="meaning">Empty Last Name</note>
+      </trans-unit>
+      <trans-unit id="PasswordCharacterAlert" datatype="html">
+        <source>Password must be at least 6 characters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/register/register.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <note priority="1" from="description">Alert when password is less than 6 characters </note>
+        <note priority="1" from="meaning">Password Insufficient</note>
       </trans-unit>
       <trans-unit id="CancelButton" datatype="html">
         <source>Cancel</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/register/register.component.html</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">50</context>
         </context-group>
         <note priority="1" from="description">Button for cancelling </note>
         <note priority="1" from="meaning">Cancel Button</note>
