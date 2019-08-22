@@ -68,6 +68,22 @@ describe('HomeComponent', () => {
       const compiled = fixture.debugElement.nativeElement;
       expect(compiled.querySelector('h1').textContent).toContain('Hi Budi');
     }));
+    it('should load the Home header in indonesian', async(() => {
+      translate.use('id');
+      fixture = TestBed.createComponent(HomeComponent);
+
+      fixture.detectChanges();
+      const compiled = fixture.debugElement.nativeElement;
+      expect(compiled.querySelector('h1').textContent).toContain('Halo Budi');
+    }));
+    it('should load the delete button in german', async(() => {
+      translate.use('de');
+      fixture = TestBed.createComponent(HomeComponent);
+
+      fixture.detectChanges();
+      const compiled = fixture.debugElement.nativeElement;
+      expect(compiled.querySelector('a').textContent).toContain('löschen');
+    }));
   });
 
   describe('test the data', () => {
