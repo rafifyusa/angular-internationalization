@@ -1,8 +1,11 @@
 <!-- nav -->
 <nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
   <div class="navbar-nav">
-    <a class="nav-item nav-link" routerLink="/" i18n="Home Button|Button to go to home page @@HomeButton">Home</a>
-    <a class="nav-item nav-link" (click)="logout()" i18n="Logout Button|Button for logging out @@LogoutButton">Logout</a>
+    <a class="nav-item nav-link" routerLink="/" Home>{{'navigation.home'|translate}}</a>
+    <a class="nav-item nav-link" (click)="logout()">{{'navigation.logout'|translate}}</a>
+    <button class="btn btn-light rounded-pill" (click)="useLanguage('en')">en</button>
+    <button class="btn btn-light rounded-pill" (click)="useLanguage('de')">de</button>
+    <button class="btn btn-light rounded-pill" (click)="useLanguage('id')">id</button>
   </div>
 </nav>
 

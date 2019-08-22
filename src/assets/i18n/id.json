@@ -1,0 +1,36 @@
+{
+  "loginPage": {
+    "title": "Halaman Masuk",
+    "usernameLabel": "Nama Pengguna",
+    "usernameAlert": "Nama Pengguna diperlukan",
+    "passwordLabel": "Kata Sandi",
+    "passwordAlert": "Kata Sandi diperlukan"
+  },
+  "homePage": {
+    "heading": "Halo {{name}}!",
+    "description": "Anda telah masuk menggunakan Angular 8!!",
+    "list-introduction": "Semua pengguna terdaftar:"
+  },
+  "registerPage": {
+    "title": "Halaman Pendaftaran",
+    "firstnameLabel": "Nama Depan",
+    "firstnameAlert": "Nama depan diperlukan",
+    "lastnameLabel": "Nama Belakang",
+    "lastnameAlert": "Nama Bblakang diperlukan",
+    "usernameLabel": "Nama Pengguna",
+    "usernameAlert": "Nama pengguna diperlukan",
+    "passwordLabel": "Kata Sandi",
+    "passwordAlert": "Kata sandi diperlukan",
+    "passwordAlertMinimalCharacter": "Panjang kata sandi minimal 6 karakter"
+  },
+  "navigation": {
+    "home": "Beranda",
+    "logout": "Keluar"
+  },
+  "button": {
+    "login": "Masuk",
+    "register": "Daftar",
+    "cancel": "Batalkan",
+    "delete": "Hapus"
+  }
+}

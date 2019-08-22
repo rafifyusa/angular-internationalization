@@ -4,6 +4,11 @@
 module.exports = function (config) {
   config.set({
     basePath: '',
+    files: [
+      './src/assets/scripts/read-json.js',
+      {pattern: './src/test.ts', watched: false},
+      {pattern: './src/assets/i18n/*.json', included: false}
+    ],
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
     plugins: [
       require('karma-jasmine'),

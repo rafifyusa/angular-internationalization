@@ -1,9 +1,9 @@
-<h1 i18n="Greeting|Greeting to user @@UserGreeting">Hi {{currentUser.firstName}}!</h1>
-<p i18n="Home Description|Dummy description for home page @@HomeDescription">You're logged in with Angular 8!!</p>
-<h3 i18n="User List|Showing a list of users who already registered @@UserList">All registered users:</h3>
+<h1>{{'homePage.heading' | translate:{'name': currentUser.firstName} }}</h1>
+<p>{{'homePage.description' | translate}}</p>
+<h3>{{'homePage.list-introduction' | translate}}</h3>
 <ul>
   <li *ngFor="let user of users">
     {{user.username}} ({{user.firstName}} {{user.lastName}})
-    - <a (click)="deleteUser(user.id)" class="text-danger" i18n="Delete Button|Button for deleting @@DeleteButton">Delete</a>
+    - <a (click)="deleteUser(user.id)" class="text-danger">{{'button.delete'|translate}}</a>
   </li>
 </ul>

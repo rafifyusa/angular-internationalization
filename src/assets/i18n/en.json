@@ -1,0 +1,36 @@
+{
+  "loginPage": {
+    "title": "Login Page",
+    "usernameLabel": "Username",
+    "usernameAlert": "Username is required",
+    "passwordLabel": "Password",
+    "passwordAlert": "Password is required"
+  },
+  "homePage": {
+    "heading": "Hi {{name}}",
+    "description": "You're logged in with Angular 8!!",
+    "list-introduction": "All registered users:"
+  },
+  "registerPage": {
+    "title": "Register Page",
+    "firstnameLabel": "First Name",
+    "firstnameAlert": "First Name is required",
+    "lastnameLabel": "Last Name",
+    "lastnameAlert": "Last Name is required",
+    "usernameLabel": "Username",
+    "usernameAlert": "Username is required",
+    "passwordLabel": "Password",
+    "passwordAlert": "Password is required",
+    "passwordAlertMinimalCharacter": "Password must be at least 6 characters"
+  },
+  "navigation": {
+    "home": "Home",
+    "logout": "Logout"
+  },
+  "button": {
+    "login": "Login",
+    "register": "Register",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  }
+}

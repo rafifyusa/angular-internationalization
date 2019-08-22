@@ -1,27 +1,26 @@
-<h2 i18n="Login Header|Login header for  login page @@LoginHeader">Login</h2>
+<h2>{{'loginPage.title' | translate}}</h2>
 <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
   <div class="form-group">
-    <label for="username" i18n="Login Username|Username label for login page @@LoginUsername">Username</label>
+    <label for="username">{{'loginPage.usernameLabel' | translate}}</label>
     <input type="text" formControlName="username" class="form-control"
            [ngClass]="{ 'is-invalid': submitted && f.username.errors }"/>
     <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
-      <div *ngIf="f.username.errors.required">Username is required</div>
+      <div *ngIf="f.username.errors.required">{{'loginPage.usernameAlert' | translate}}</div>
     </div>
   </div>
   <div class="form-group">
-    <label for="password" i18n="Login Password|Password label for login page @@LoginPassword">Password</label>
+    <label for="password">{{'loginPage.passwordLabel' | translate}}</label>
     <input type="password" formControlName="password" class="form-control"
            [ngClass]="{ 'is-invalid': submitted && f.password.errors }"/>
     <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
-      <div *ngIf="f.password.errors.required">Password is required</div>
+      <div *ngIf="f.password.errors.required">{{'loginPage.passwordAlert' | translate}}</div>
     </div>
   </div>
   <div class="form-group">
     <button [disabled]="loading" class="btn btn-primary">
       <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
-      <span i18n="Login Button|Login button for login page @@LoginButton">Login</span>
+      <span>{{'button.login' | translate}}</span>
     </button>
-    <a routerLink="/register" class="btn btn-link"
-       i18n="Register Button|Register button for login page @@RegisterButton">Register</a>
+    <a routerLink="/register" class="btn btn-link">{{'button.register'|translate}}</a>
   </div>
 </form>
